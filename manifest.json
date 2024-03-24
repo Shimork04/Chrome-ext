@@ -3,16 +3,18 @@
     "description" : "This is a color picker extension",
     "version" : "1.0.1",
     "manifest_version" : 3,
-    
+
     "background" : {
         "service_worker" : "background.js"
     },
 
     "permissions" : [
+        "storage",
         "activeTab",
         "scripting"
     ],
 
+    "options_page" : "options.html",
     "action" : {
         "default_popup" : "popup.html"
     },

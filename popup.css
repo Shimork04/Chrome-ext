@@ -30,3 +30,13 @@ body{
     border-radius: 3px;
 }
 
+.selectedColor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue{
+    margin-left: 5px;
+    font-weight: 400;
+}
